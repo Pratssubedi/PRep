@@ -4,11 +4,13 @@
  <title>Being Responsive</title>
 
  <link href="css/bootstrap.css" rel="stylesheet">
+ <link href="css/custom.css" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="sweetalert-master/dist/sweetalert.css">
 
- 
- </style>
+
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="sweetalert-master/dist/sweetalert.min.js"></script> 
 
  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,9 +21,9 @@
 
     </head>
     <body>
+   <div class="container-fluid">
       <nav role="navigation">
-        <div class="container-fluid"> 
-        <!-- start collapsed navbar -->
+      <!-- start collapsed navbar -->
         <div class="navbar-header">
           <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navbar" aria-expanded="false" >View Navbar</button>
         </div> 
@@ -33,19 +35,42 @@
             <li> <a href="#"><span class="glyphicon glyphicon-user"> About Us </span></a></li>
             <li> <a href="#"><span class="glyphicon glyphicon-envelope"> Contact Us</span></a></li>
             <li> <a href="#"><span class="glyphicon glyphicon-picture">&nbspPhotos</span></a></li>
-            <li> <a id="modal" data-toggle="popover" title="What's in"  data-placement="bottom" data-content="This is not over yet"  style="cursor: pointer;"> Dropdown </a>          
-            </li>
+           <!-- Modal Sign up -->
+          
+            <!-- Modal Sign up -->
+            <!-- inline form start -->
+          <form class="form-inline">
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputEmail3">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputPassword3">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+            </div>
+           
+            <button type="submit" class="btn btn-default">Sign in</button>
+
+          </div>
+        </form>
+
+
 
           </UL>
+
+          <!-- Inline form end -->
         </div>  
         </div>
+
       </nav>
+
       <div class="container-fluid">
         <div class="jumbotron">
           <div class="container span4">
             <h3>Notice Board</h3>
             <p>this bird symbolizes freedom. this bird symbolizes freedom.this bird symbolizes freedom.this bird symbolizes freedom.this bird symbolizes freedom.</p>
             <p><a class="btn btn-primary btn-lg" href="#" role="button">Read more</a></p>
+
           </div>
         </div>
       </div>
@@ -88,6 +113,7 @@
                     href="#mycar" data-slide="next"><span class="glyphicon glyphicon-chevron-right">
                     </span></a>
         </div>
+        
 
          <div class="row">
         <div class="container-fluid">
@@ -101,8 +127,105 @@
               </div>
             </div>
           </div>
+         </div> 
 
           </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h3 class="text-center">Breeds of Dogs</h3>
+      <p>
+        
+      </p>
+      <ul class="timeline">
+        <li>
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/1" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Step One</h4>
+              <h4 class="subheading">Subtitle</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/2" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Step Two</h4>
+              <h4 class="subheading">Subtitle</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+        </li>
+        <li>
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/3" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Step Three</h4>
+              <h4 class="subheading">Subtitle</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/4" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Step Three</h4>
+              <h4 class="subheading">Subtitle</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+        </li>
+        <li>
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/5" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Bonus Step</h4>
+              <h4 class="subheading">Subtitle</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
          
             
           
@@ -136,30 +259,74 @@
 
        <!-- Slider end -->
 
-        </div>
+      
+      
+  
+     
 
-      </div>
 
       
-      <!-- <div class="container-fluid">
-        <div class="panel panel-primary">
-          <div class="panel-heading ">Panel heading</div>
-          <p>this is a panel</p>
-        </div>
-      </div>
-      </div>
-
-      <div class="container-fluid">
       
-        </div>
- -->
+    </div>
+ 
 
      
 
       <script>
       $(document).ready(function(){
         $('[data-toggle="popover"]').popover();
-      });
+              // sweetalert
+                // swal({
+                //    title: 'Congratulations!',
+                //    text: 'You are on a right Page',
+                //    type: 'success'
+                // });
+
+                //   swal({   
+                //   title: "Are you sure?",  
+                //   text: "You will not be able to recover this imaginary file!",   
+                //   type: "warning",   
+                //   showCancelButton: true,   
+                //   confirmButtonColor: "#DD6B55",   
+                //   confirmButtonText: "Yes, delete it!",   
+                //   cancelButtonText: "No, cancel plx!",   
+                //   closeOnConfirm: false,   
+                //   closeOnCancel: false 
+                // },
+
+                // function(input) {
+                //   if (input){
+                //      swal("Deleted!", "Your imaginary file has been deleted.", "success");
+                //   }
+                //   else {
+                //     swal("Cancelled", "Your imaginary file is safe :)", "error");
+                //   }
+                // });
+
+                // sweetalert
+
+
+              $('#myModal1').click(function(){
+
+                if ($('#title').val()==="") {
+              // invalid
+              $('#title').next('.help-inline').show();
+              return false;
+            }
+            else {
+              // submit the form here
+              //$('#InfroText').submit();
+              
+              return true;
+            }
+
+
+
+          });
+
+        });
+
+
       </script>
 
 
